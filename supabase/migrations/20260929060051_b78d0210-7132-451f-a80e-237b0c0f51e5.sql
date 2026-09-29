@@ -1,0 +1,1 @@
+ALTER TABLE public.messages ADD COLUMN reactions jsonb NOT NULL DEFAULT '{}'::jsonb, ADD COLUMN gif_url text;
